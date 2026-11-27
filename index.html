@@ -22,7 +22,7 @@
             <a href="#home" class="logo">KLEOPAS<span>.</span></a>
 
             <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
-                ☰
+                â˜°
             </button>
 
             <div class="nav-links" id="navLinks">
@@ -43,7 +43,7 @@
 
             <div class="hero-content">
 
-                <p class="eyebrow">INFORMATICS · TECHNOLOGY · INNOVATION</p>
+                <p class="eyebrow">INFORMATICS &middot; TECHNOLOGY &middot; INNOVATION</p>
 
                 <h1>
                     Hello, I'm<br>
@@ -71,13 +71,11 @@
 
                     <a href="documents/Kleopas-Andima-CV.pdf"
                        class="btn-outline"
-                       download>
-                        ↓ Download My CV
-                    </a>
+                       download>&#8595; Download My CV</a>
 
                 </div>
 
-                <p class="location">Based in Namibia 🇳🇦</p>
+                <p class="location">Based in Namibia</p>
 
             </div>
 
@@ -116,66 +114,75 @@
         </section>
 
         <!-- Projects -->
-        <section class="section projects-section" id="projects">
+<section class="section projects-section" id="projects">
 
-            <p class="eyebrow">WHAT I'M BUILDING</p>
+    <p class="eyebrow">WHAT I'M BUILDING</p>
 
-            <h2>Selected Projects</h2>
+    <h2>Selected Projects</h2>
 
-            <p class="section-description">
-                A collection of academic and personal software
-                development projects.
-            </p>
+    <p class="section-description">
+        A collection of software engineering, machine learning
+        and information systems projects.
+    </p>
 
-            <div class="project-grid">
+    <div class="project-grid">
 
-                <article class="project-card">
-                    <span class="project-number">01 / SOFTWARE</span>
+        <article class="project-card">
+            <span class="project-number">01 / INDUSTRIAL SOFTWARE</span>
 
-                    <h3>Instinct IT Service Desk</h3>
+            <h3>Instinct Industrial</h3>
 
-                    <p>
-                        An enterprise IT service desk and asset
-                        management system designed to manage
-                        support tickets, employees and IT assets.
-                    </p>
+            <p>An industrial operations management frontend featuring asset registration, maintenance tracking, work order management and operational analytics. It currently uses sample data while backend integration is under development.</p>
 
-                    <span class="status">In Development</span>
-                </article>
+            <span class="status">Live Frontend</span>
 
-                <article class="project-card">
-                    <span class="project-number">02 / DIGITAL COMMERCE</span>
+            <div class="project-actions">
+                <a class="project-link"
+                   href="https://instinct-industrial.netlify.app/"
+                   target="_blank" rel="noopener noreferrer">
+                    Live Demo
+                </a>
 
-                    <h3>Instinct Marketplace</h3>
-
-                    <p>
-                        A digital marketplace initiative exploring
-                        software solutions for businesses and
-                        online commerce.
-                    </p>
-
-                    <span class="status">In Development</span>
-                </article>
-
-                <article class="project-card">
-                    <span class="project-number">03 / ACADEMIC</span>
-
-                    <h3>Student Learning Support System</h3>
-
-                    <p>
-                        An academic information system designed
-                        to support first-year students through
-                        learning assistance and course recommendations.
-                    </p>
-
-                    <span class="status">Academic Project</span>
-                </article>
-
+                <a class="project-link"
+                   href="https://github.com/tangeni45/InstinctIndustrial"
+                   target="_blank" rel="noopener noreferrer">
+                    Source Code
+                </a>
             </div>
+        </article>
 
-        </section>
+        <article class="project-card">
+            <span class="project-number">02 / MACHINE LEARNING</span>
 
-        <!-- Skills -->
+            <h3>Building Age Classification</h3>
+
+            <p>A geospatial machine learning project using satellite-derived data to classify buildings into four age groups. The research explores cross-city model transfer from Madrid to Amsterdam.</p>
+
+            <span class="status">Research &amp; Development</span>
+        </article>
+
+        <article class="project-card">
+            <span class="project-number">03 / ENTERPRISE SOFTWARE</span>
+
+            <h3>Instinct IT Service Desk</h3>
+
+            <p>An IT service desk prototype built with Spring Boot and SQL Server, featuring support ticket management, employee records and IT asset management.</p>
+
+            <span class="status">Prototype Completed</span>
+
+            <div class="project-actions">
+                <a class="project-link"
+                   href="https://github.com/tangeni45/InstinctITServiceDesk"
+                   target="_blank" rel="noopener noreferrer">
+                    Source Code
+                </a>
+            </div>
+        </article>
+
+    </div>
+
+</section>
+<!-- Skills -->
         <section class="section" id="skills">
 
             <p class="eyebrow">MY TECHNICAL TOOLKIT</p>
@@ -183,19 +190,19 @@
             <h2>Skills & Technologies</h2>
 
             <div class="skills-grid">
-                <span>Java</span>
-                <span>C Programming</span>
-                <span>HTML</span>
-                <span>CSS</span>
-                <span>JavaScript</span>
-                <span>SQL Server</span>
-                <span>PostgreSQL</span>
-                <span>Spring Boot</span>
-                <span>Git & GitHub</span>
-                <span>Database Management</span>
-                <span>Networking</span>
-                <span>Systems Analysis</span>
-            </div>
+    <span class="skill-tag">Java</span>
+    <span class="skill-tag">C Programming</span>
+    <span class="skill-tag">HTML</span>
+    <span class="skill-tag">CSS</span>
+    <span class="skill-tag">JavaScript</span>
+    <span class="skill-tag">SQL Server</span>
+    <span class="skill-tag">PostgreSQL</span>
+    <span class="skill-tag">Spring Boot</span>
+    <span class="skill-tag">Git &amp; GitHub</span>
+    <span class="skill-tag">Database Management</span>
+    <span class="skill-tag">Networking</span>
+    <span class="skill-tag">Systems Analysis</span>
+</div>
 
             <p class="skills-note">
                 Skills and technologies I am developing through
@@ -242,39 +249,27 @@
 
             <!-- Contact Information -->
             <div class="social-links">
-
-                <a href="mailto:tangeniandima45@gmail.com"
-                   class="social-link">
-                    Email: tangeniandima45@gmail.com
-                </a>
-
-                <a href="tel:+264812741362"
-                   class="social-link">
-                    Phone: +264 81 274 1362
-                </a>
-
-                <a href="https://wa.me/264812741362"
-                   target="_blank"
-                   rel="noopener noreferrer"
-                   class="social-link">
-                    WhatsApp ↗
-                </a>
-
-                <a href="https://github.com/tangeni45"
-                   target="_blank"
-                   rel="noopener noreferrer"
-                   class="social-link">
-                    GitHub ↗
-                </a>
-
-                <a href="https://www.linkedin.com/in/kleopas-andima-045143323/"
-                   target="_blank"
-                   rel="noopener noreferrer"
-                   class="social-link">
-                    LinkedIn ↗
-                </a>
-
-            </div>
+    <a href="mailto:tangeniandima45@gmail.com" class="social-link">
+        <span class="contact-label">Email</span>
+        <span class="contact-value">tangeniandima45@gmail.com</span>
+    </a>
+    <a href="tel:+264812741362" class="social-link">
+        <span class="contact-label">Phone</span>
+        <span class="contact-value">+264 81 274 1362</span>
+    </a>
+    <a href="https://wa.me/264812741362" target="_blank" rel="noopener noreferrer" class="social-link">
+        <span class="contact-label">WhatsApp</span>
+        <span class="contact-value">Message me &#8599;</span>
+    </a>
+    <a href="https://github.com/tangeni45" target="_blank" rel="noopener noreferrer" class="social-link">
+        <span class="contact-label">GitHub</span>
+        <span class="contact-value">View profile &#8599;</span>
+    </a>
+    <a href="https://www.linkedin.com/in/kleopas-andima-045143323/" target="_blank" rel="noopener noreferrer" class="social-link">
+        <span class="contact-label">LinkedIn</span>
+        <span class="contact-value">Connect with me &#8599;</span>
+    </a>
+</div>
 
             <a href="mailto:tangeniandima45@gmail.com"
                class="btn-primary">
@@ -287,7 +282,7 @@
 
     <!-- Footer -->
     <footer>
-        <p>© 2026 Kleopas Andima. All rights reserved.</p>
+        <p>&copy; 2026 Kleopas Andima. All rights reserved.</p>
         <p>Designed and developed by Kleopas Andima.</p>
     </footer>
 
@@ -295,3 +290,7 @@
 
 </body>
 </html>
+
+
+
+
